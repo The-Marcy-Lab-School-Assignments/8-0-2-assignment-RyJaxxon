@@ -13,7 +13,7 @@ function App() {
 
   useEffect(() => {
     const doFetch = async () => {
-      const [data, error] = await handleFetch(URL);
+      const [data, error] = await handleFetch(`/api/gifs`);
       if (error) setErrorMessage(error.message);
       if (data) setGifs(data.data);
     }
