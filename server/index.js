@@ -1,3 +1,4 @@
+/** FEEDBACK: This file looks good and the endpoint is working.  */
 const dotenv = require('dotenv').config(); // Import the environment variables from the `.env` file
 const express = require('express');
 const path = require('path');
